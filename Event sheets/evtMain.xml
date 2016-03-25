@@ -277,7 +277,11 @@
             <conditions>
                 <condition id="-1" name="Every tick" sid="5950001771464505" type="System" />
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Set text" sid="669816306322898" type="txtHp">
+                    <param id="0" name="Text">&quot;Player 1 HP: &quot; &amp; Player2HP &amp; newline &amp; &quot;Player 2 HP: &quot; &amp; Player1HP</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="5425485275278784">
                     <conditions>
