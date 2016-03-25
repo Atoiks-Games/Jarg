@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtMainPage</name>
+    <events>
+        <event-block sid="3290520334224734">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1598888590116074" type="btnStart" />
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="5942126035897104" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4089208928872111">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4521878693206236" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
+                    <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma, period&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1954926256685512">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5857223346478606" type="btnControls" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2216069717775109">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="6017482536584905" type="controlHelp" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="9422100792543008" type="controlHelp">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8773020413869652">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="2358350975410967" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="7200819398302189" type="controlHelp">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

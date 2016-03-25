@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtMain</name>
+    <events>
+        <comment>OK; and ,.</comment>
+        <event-block sid="4362330721629064">
+            <conditions>
+                <condition id="2" name="Key is down" sid="2688742519815367" type="Keyboard">
+                    <param id="0" name="Key">75 (K)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5885950474834497" type="Player1">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5245404060401116">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4552645082215663" type="Keyboard">
+                    <param id="0" name="Key">79 (O)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5002152138761867" type="Player1">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7446298945054502">
+            <conditions>
+                <condition id="2" name="Key is down" sid="8666386124096179" type="Keyboard">
+                    <param id="0" name="Key">186 (;)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="5534446475525305" type="Player1">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4587008985371711">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9604596377596892" type="Keyboard">
+                    <param id="0" name="Key">188 (,)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="7332851121191408">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="7950349478253976" type="System">
+                            <param id="0" name="Object">PlatformIrreg</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="5346141089458413" type="System">
+                            <param id="0" name="Seconds">0.4</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="1356784299716393" type="Player1">
+                            <param id="0" name="Object">PlatformIrreg</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1717173294902823">
+            <conditions>
+                <condition id="2" name="Key is down" sid="7612177646548075" type="Keyboard">
+                    <param id="0" name="Key">190 (.)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1073904982606092">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="9002530352059235" type="System">
+                            <param id="0" name="Object">PlatformIrreg</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="5022188328487671" type="System">
+                            <param id="0" name="Seconds">0.4</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="4576107675374291" type="PlatformIrreg">
+                            <param id="0" name="Object">Player1</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>WAD and ZX</comment>
+        <event-block sid="6489355315370933">
+            <conditions>
+                <condition id="2" name="Key is down" sid="4639705727995886" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="2018590497381484" type="Player2">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4266231602697052">
+            <conditions>
+                <condition id="2" name="Key is down" sid="6390114553608846" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="2938619016646344" type="Player2">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1300970651793421">
+            <conditions>
+                <condition id="2" name="Key is down" sid="2846421163617341" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="7977519803508479" type="Player2">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4449170380004034">
+            <conditions>
+                <condition id="2" name="Key is down" sid="220015742055953" type="Keyboard">
+                    <param id="0" name="Key">90 (Z)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="314779000003572">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="9997869433284885" type="System">
+                            <param id="0" name="Object">PlatformIrreg</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="1748634086102798" type="System">
+                            <param id="0" name="Seconds">0.4</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="6883991934645696" type="Player2">
+                            <param id="0" name="Object">PlatformIrreg</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4070633907013073">
+            <conditions>
+                <condition id="2" name="Key is down" sid="9008295717140249" type="Keyboard">
+                    <param id="0" name="Key">88 (X)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4649159737685834">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="1057318579471992" type="System">
+                            <param id="0" name="Object">PlatformIrreg</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="4170404706619801" type="System">
+                            <param id="0" name="Seconds">0.4</param>
+                        </action>
+                        <action id="-4" name="Set position to another object" sid="2811359273079127" type="PlatformIrreg">
+                            <param id="0" name="Object">Player2</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="3692424944882788">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1958896046265653" type="System" />
+            </conditions>
+            <actions>
+                <action id="-28" name="Set canvas size" sid="6328015450825758" type="System">
+                    <param id="0" name="Width">WindowWidth * 2.2</param>
+                    <param id="1" name="Height">WindowHeight * 2.2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
