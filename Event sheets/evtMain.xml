@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtMain</name>
     <events>
+        <variable constant="0" name="Player2HP" sid="6823184767442731" static="0" type="number">20</variable>
+        <variable constant="0" name="Player1HP" sid="3793917711773767" static="0" type="number">20</variable>
         <comment>OK; and ,.</comment>
         <event-block sid="4362330721629064">
             <conditions>
@@ -188,9 +190,110 @@
             <actions>
                 <action id="-28" name="Set canvas size" sid="6328015450825758" type="System">
                     <param id="0" name="Width">WindowWidth * 2.2</param>
-                    <param id="1" name="Height">WindowHeight * 2.2</param>
+                    <param id="1" name="Height">WindowHeight * 2.4</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="9146700590301507">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="2537292926277251" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="6666488780614625" type="Player2">
+                    <param id="0" name="Object">bullet</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="532123532646416" type="bullet">
+                    <param id="0" name="Instance variable">launchedByPlayer</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="5933641473472961" type="bullet">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="910361430991239" type="bullet">
+                    <param id="0" name="X">Player1.X</param>
+                    <param id="1" name="Y">Player1.Y</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="3486436567821403" type="Player1">
+                    <param id="0" name="Object">bullet</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="7544663119428128" type="bullet">
+                    <param id="0" name="Instance variable">launchedByPlayer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="469200370851987" type="bullet">
+                    <param id="0" name="Angle">0</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="8848695773394217" type="bullet">
+                    <param id="0" name="X">Player2.X</param>
+                    <param id="1" name="Y">Player2.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6829920988350968">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="6069127329933749" type="bullet">
+                    <param id="0" name="Object">Player2</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="9185848235117493" type="bullet">
+                    <param id="0" name="Instance variable">launchedByPlayer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="1285922468824665" type="bullet" />
+                <action id="-11" name="Subtract from" sid="2137394655856622" type="System">
+                    <param id="0" name="Variable">Player2HP</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8297753477684281">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="8414508009376899" type="bullet">
+                    <param id="0" name="Object">Player1</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="6577053798056474" type="bullet">
+                    <param id="0" name="Instance variable">launchedByPlayer</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4282716477881479" type="bullet" />
+                <action id="-11" name="Subtract from" sid="1170868429471228" type="System">
+                    <param id="0" name="Variable">Player1HP</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5503728746967282">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5950001771464505" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="5425485275278784">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="7794180332233935" type="System">
+                            <param id="0" name="First value">min(Player1HP, Player2HP)</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Second value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="9009549671824006" type="System">
+                            <param id="0" name="Layout">Result</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>

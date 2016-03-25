@@ -19,7 +19,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
-                    <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma, period&quot;</param>
+                    <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma,period&quot;</param>
                 </action>
             </actions>
         </event-block>

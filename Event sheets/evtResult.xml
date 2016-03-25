@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtResult</name>
+    <events>
+        <event-block sid="2077852327542675">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4406713461464352" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="2381379978753309" type="Text">
+                    <param id="0" name="Text">&quot;Results: &quot; &amp; newline &amp; &quot;Player 1 HP: &quot; &amp; max(Player2HP, 0) &amp; newline &amp; &quot;Player 2 HP: &quot; &amp; max(Player1HP, 0) &amp; newline &amp; newline &amp; &quot;Player &quot; &amp; (Player2HP &gt; 0 ? &quot;1&quot; : &quot;2&quot;) &amp; &quot; wins!&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3817493038846525">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5306319464631437" type="btnOk" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="91321689074682" type="System">
+                    <param id="0" name="Layout">MainPage</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

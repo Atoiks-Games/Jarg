@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
-    <name>Game</name>
+    <name>Jarg</name>
     <description>Just some random game</description>
     <version>1.0.0.0</version>
     <author>Plankp T.</author>
     <author-email>plankp@outlook.com</author-email>
-    <author-website>http://</author-website>
+    <author-website>http://prototype-games.github.io/</author-website>
     <app-id>com.prototype-games.game</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>22100</saved-with-version>
@@ -16,9 +16,12 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
         <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
     </used-behaviors>
     <used-effects />
@@ -71,8 +74,8 @@
                 <behavior-type name="Physics" sid="4257423864054267">
                     <behavior id="Physics" />
                 </behavior-type>
-                <behavior-type name="Jumpthru" sid="5435473917111201">
-                    <behavior id="jumpthru" />
+                <behavior-type name="Solid" sid="1466246091732502">
+                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -148,15 +151,42 @@
         <object-type name="controlHelp" sid="9171043487001826">
             <plugin id="Text" />
         </object-type>
+        <object-type name="bullet" sid="3777417769990252">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="launchedByPlayer" sid="9461427335432922" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="729854584417229">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="2357472138046969">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6375033175457087" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="8266255094469583">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnOk" sid="8202931508501324">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>MainPage.xml</layout>
         <layout>Layout 1.xml</layout>
+        <layout>Result.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>evtMain.xml</event-sheet>
         <event-sheet>evtMainPage.xml</event-sheet>
+        <event-sheet>evtResult.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="5" />
