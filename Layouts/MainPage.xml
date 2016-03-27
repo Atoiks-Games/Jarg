@@ -133,7 +133,7 @@
                 </instance>
                 <instance type="List" uid="1">
                     <properties>
-                        <items>Original; Nothingness; Random</items>
+                        <items>Original; Nothingness; Smile; Hang; Random</items>
                         <tooltip>Choose the map here</tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>

@@ -190,6 +190,8 @@
     <layout-folder>
         <layout>MainPage.xml</layout>
         <layout>Nothingness.xml</layout>
+        <layout>Smile.xml</layout>
+        <layout>Hang.xml</layout>
         <layout>Original.xml</layout>
         <layout>Result.xml</layout>
     </layout-folder>

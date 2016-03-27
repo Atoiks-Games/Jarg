@@ -44,7 +44,7 @@
         </event-block>
         <event-block sid="4587008985371711">
             <conditions>
-                <condition id="2" name="Key is down" sid="9604596377596892" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="9604596377596892" type="Keyboard">
                     <param id="0" name="Key">188 (,)</param>
                 </condition>
             </conditions>
@@ -62,7 +62,7 @@
                         </action>
                         <action id="-4" name="Set position to another object" sid="1356784299716393" type="Player1">
                             <param id="0" name="Object">PlatformIrreg</param>
-                            <param id="1" name="Image point (optional)">0</param>
+                            <param id="1" name="Image point (optional)">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -70,7 +70,7 @@
         </event-block>
         <event-block sid="1717173294902823">
             <conditions>
-                <condition id="2" name="Key is down" sid="7612177646548075" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="7612177646548075" type="Keyboard">
                     <param id="0" name="Key">190 (.)</param>
                 </condition>
             </conditions>
@@ -88,7 +88,7 @@
                         </action>
                         <action id="-4" name="Set position to another object" sid="4576107675374291" type="PlatformIrreg">
                             <param id="0" name="Object">Player1</param>
-                            <param id="1" name="Image point (optional)">0</param>
+                            <param id="1" name="Image point (optional)">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -133,7 +133,7 @@
         </event-block>
         <event-block sid="4449170380004034">
             <conditions>
-                <condition id="2" name="Key is down" sid="220015742055953" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="220015742055953" type="Keyboard">
                     <param id="0" name="Key">90 (Z)</param>
                 </condition>
             </conditions>
@@ -151,7 +151,7 @@
                         </action>
                         <action id="-4" name="Set position to another object" sid="6883991934645696" type="Player2">
                             <param id="0" name="Object">PlatformIrreg</param>
-                            <param id="1" name="Image point (optional)">0</param>
+                            <param id="1" name="Image point (optional)">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -159,7 +159,7 @@
         </event-block>
         <event-block sid="4070633907013073">
             <conditions>
-                <condition id="2" name="Key is down" sid="9008295717140249" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="9008295717140249" type="Keyboard">
                     <param id="0" name="Key">88 (X)</param>
                 </condition>
             </conditions>
@@ -177,7 +177,7 @@
                         </action>
                         <action id="-4" name="Set position to another object" sid="2811359273079127" type="PlatformIrreg">
                             <param id="0" name="Object">Player2</param>
-                            <param id="1" name="Image point (optional)">0</param>
+                            <param id="1" name="Image point (optional)">1</param>
                         </action>
                     </actions>
                 </event-block>
