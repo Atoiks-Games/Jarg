@@ -170,7 +170,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="8266255094469583">
+        <object-type name="txtResult" sid="8266255094469583">
             <plugin id="Text" />
         </object-type>
         <object-type name="btnOk" sid="8202931508501324">
@@ -181,6 +181,9 @@
         </object-type>
         <object-type name="List" sid="9989293564445931">
             <plugin id="List" />
+        </object-type>
+        <object-type name="txtMadeBy" sid="5569808211201994">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
