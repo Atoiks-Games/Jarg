@@ -7,11 +7,33 @@
             <conditions>
                 <condition id="0" name="On clicked" sid="1598888590116074" type="btnStart" />
             </conditions>
-            <actions>
-                <action id="-25" name="Go to layout (by name)" sid="5942126035897104" type="System">
-                    <param id="0" name="Layout">List.SelectedText</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <comment>Note: For this reason, the &quot;random&quot; map must be the last item of the combolist</comment>
+                <event-block sid="4992080854364607">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="2544802450691265" type="List">
+                            <param id="0" name="Text to compare">&quot;random&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="8136609307400038" type="System">
+                            <param id="0" name="Layout">List.ItemTextAt(random(List.ItemCount - 1))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5813134771847782">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3373614138595941" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="9243663118882287" type="System">
+                            <param id="0" name="Layout">List.SelectedText</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="4089208928872111">
             <conditions>
@@ -20,9 +42,6 @@
             <actions>
                 <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
                     <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma,period&quot;</param>
-                </action>
-                <action id="1" name="Set tooltip" sid="9222049734286698" type="List">
-                    <param id="0" name="Tooltip">&quot;Choose the map here&quot;</param>
                 </action>
             </actions>
         </event-block>
