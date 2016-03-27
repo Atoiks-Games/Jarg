@@ -8,8 +8,8 @@
                 <condition id="0" name="On clicked" sid="1598888590116074" type="btnStart" />
             </conditions>
             <actions>
-                <action id="-43" name="Go to next/previous layout" sid="5942126035897104" type="System">
-                    <param id="0" name="Which">0</param>
+                <action id="-25" name="Go to layout (by name)" sid="5942126035897104" type="System">
+                    <param id="0" name="Layout">List.SelectedText</param>
                 </action>
             </actions>
         </event-block>
@@ -20,6 +20,9 @@
             <actions>
                 <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
                     <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma,period&quot;</param>
+                </action>
+                <action id="1" name="Set tooltip" sid="9222049734286698" type="List">
+                    <param id="0" name="Tooltip">&quot;Choose the map here&quot;</param>
                 </action>
             </actions>
         </event-block>

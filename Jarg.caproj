@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
@@ -178,17 +179,22 @@
         <object-type name="txtHp" sid="2406525726899345">
             <plugin id="Text" />
         </object-type>
+        <object-type name="List" sid="9989293564445931">
+            <plugin id="List" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>MainPage.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>Nothingness.xml</layout>
+        <layout>Original.xml</layout>
         <layout>Result.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>evtMain.xml</event-sheet>
         <event-sheet>evtMainPage.xml</event-sheet>
         <event-sheet>evtResult.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="5" />

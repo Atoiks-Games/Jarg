@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 1</name>
-    <sid>8873350371196689</sid>
+    <name>Original</name>
+    <sid>6454255457676299</sid>
     <event-sheet>evtMain</event-sheet>
     <size>
         <width>2560</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="8722530541249526">
+        <layer name="Layer 0" sid="874921156333737">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player2" uid="7">
+                <instance type="Player2" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -86,7 +86,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player1" uid="0">
+                <instance type="Player1" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -143,7 +143,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformJmpt" uid="1">
+                <instance type="PlatformJmpt" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -186,7 +186,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformJmpt" uid="2">
+                <instance type="PlatformJmpt" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -229,7 +229,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformJmpt" uid="3">
+                <instance type="PlatformJmpt" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -272,7 +272,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformIrreg" uid="4">
+                <instance type="PlatformIrreg" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -320,7 +320,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformIrreg" uid="6">
+                <instance type="PlatformIrreg" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -368,7 +368,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bullet" uid="12">
+                <instance type="bullet" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -406,7 +406,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtHp" uid="15">
+                <instance type="txtHp" uid="24">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
