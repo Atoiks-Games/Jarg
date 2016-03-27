@@ -194,7 +194,6 @@
         <event-sheet>evtMain.xml</event-sheet>
         <event-sheet>evtMainPage.xml</event-sheet>
         <event-sheet>evtResult.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="5" />
