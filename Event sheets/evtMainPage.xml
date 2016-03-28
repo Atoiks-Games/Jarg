@@ -43,6 +43,14 @@
                 <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
                     <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma,period&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="5742334594189115" type="System">
+                    <param id="0" name="Variable">Player1HP</param>
+                    <param id="1" name="Value">20</param>
+                </action>
+                <action id="-9" name="Set value" sid="917092073501475" type="System">
+                    <param id="0" name="Variable">Player2HP</param>
+                    <param id="1" name="Value">20</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="1954926256685512">
