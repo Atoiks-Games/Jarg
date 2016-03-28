@@ -82,7 +82,7 @@
                 </instance>
                 <instance type="txtMadeBy" uid="3">
                     <properties>
-                        <text>Made with love by Prototype Games   http://prototype-games.github.io/</text>
+                        <text>Made with love by Atoiks Games   http://atoiks-games.github.io/</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Consolas,-19,400,0</font>
                         <color>0,0,0</color>
