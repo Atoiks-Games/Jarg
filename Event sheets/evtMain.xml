@@ -280,6 +280,9 @@
                 <action id="0" name="Set text" sid="669816306322898" type="txtHp">
                     <param id="0" name="Text">&quot;Player 1 HP: &quot; &amp; Player2HP &amp; newline &amp; &quot;Player 2 HP: &quot; &amp; Player1HP</param>
                 </action>
+                <action id="-2" name="Set Y" sid="5026608063511853" type="PlatformMov">
+                    <param id="0" name="Y">PlatformMov.Y - 5</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="5425485275278784">
@@ -297,6 +300,17 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <comment>Since it only moves up.. we just have to test if it is outside of layout</comment>
+        <event-block sid="7410463689285256">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="6491818000219921" type="PlatformMov" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="692931798400601" type="PlatformMov">
+                    <param id="0" name="Y">LayoutHeight</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

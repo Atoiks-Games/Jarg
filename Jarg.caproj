@@ -185,6 +185,29 @@
         <object-type name="txtMadeBy" sid="5569808211201994">
             <plugin id="Text" />
         </object-type>
+        <object-type name="PlatformMov" sid="5836258487093922">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="5780329516002194">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="3194144545687726">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6867314543845411" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="0.36" />
+                            <point x="1" y="0.36" />
+                            <point x="1" y="0.424" />
+                            <point x="0" y="0.424" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -192,6 +215,7 @@
         <layout>Nothingness.xml</layout>
         <layout>Smile.xml</layout>
         <layout>Hang.xml</layout>
+        <layout>Elevator.xml</layout>
         <layout>Arena.xml</layout>
         <layout>Original.xml</layout>
         <layout>Result.xml</layout>
