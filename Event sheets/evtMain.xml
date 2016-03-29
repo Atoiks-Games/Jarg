@@ -305,10 +305,10 @@
                     <param id="0" name="Y">PlatformMov.Y - 5</param>
                 </action>
                 <action behavior="Platform" id="5" name="Set gravity" sid="1986491138351873" type="Player1">
-                    <param id="0" name="Gravity">(PlayerScale) * 1500</param>
+                    <param id="0" name="Gravity">PlayerScale * abs(PlayerScale) * 1500</param>
                 </action>
                 <action behavior="Platform" id="5" name="Set gravity" sid="7859790848334778" type="Player2">
-                    <param id="0" name="Gravity">(PlayerScale) * 1500</param>
+                    <param id="0" name="Gravity">PlayerScale * abs(PlayerScale) * 1500</param>
                 </action>
             </actions>
             <sub-events>
