@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>evtMapFlash</name>
+    <events>
+        <include>evtMain</include>
+        <event-block sid="1090886753506483">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="8093409143413196" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="8525450350886244">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="3066837949264876" type="PlatformJmpt" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="5908659654828153" type="PlatformJmpt">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5503209855984209">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="4793672448069808" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="1949039494658218" type="PlatformJmpt">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

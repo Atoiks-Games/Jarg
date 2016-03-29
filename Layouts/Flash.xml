@@ -2,7 +2,7 @@
 <c2layout>
     <name>Flash</name>
     <sid>8360267338946648</sid>
-    <event-sheet>evtMain</event-sheet>
+    <event-sheet>evtMapFlash</event-sheet>
     <size>
         <width>2560</width>
         <height>1440</height>

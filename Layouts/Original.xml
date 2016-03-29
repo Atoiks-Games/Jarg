@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player2" uid="16">
+                <instance type="Player2" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -86,7 +86,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player1" uid="17">
+                <instance type="Player1" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -143,7 +143,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformJmpt" uid="18">
+                <instance type="PlatformJmpt" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -186,7 +186,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformJmpt" uid="19">
+                <instance type="PlatformJmpt" uid="72">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -229,7 +229,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformJmpt" uid="20">
+                <instance type="PlatformJmpt" uid="73">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -272,7 +272,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformIrreg" uid="21">
+                <instance type="PlatformIrreg" uid="74">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -320,7 +320,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformIrreg" uid="22">
+                <instance type="PlatformIrreg" uid="75">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -368,7 +368,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="bullet" uid="23">
+                <instance type="bullet" uid="76">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -406,7 +406,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtHp" uid="24">
+                <instance type="txtHp" uid="77">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
