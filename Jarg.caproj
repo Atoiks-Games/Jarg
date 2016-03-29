@@ -258,14 +258,22 @@
     <families />
     <layout-folder>
         <layout>MainPage.xml</layout>
+        <layout>Funnel.xml</layout>
         <layout>Nothingness.xml</layout>
         <layout>Spin.xml</layout>
+        <layout>Grinder.xml</layout>
         <layout>Complex.xml</layout>
+        <layout>Maze.xml</layout>
         <layout>Flash.xml</layout>
+        <layout>Storm.xml</layout>
         <layout>Smile.xml</layout>
+        <layout>Frown.xml</layout>
         <layout>Hang.xml</layout>
+        <layout>Cave.xml</layout>
         <layout>Elevator.xml</layout>
+        <layout>Crusher.xml</layout>
         <layout>Arena.xml</layout>
+        <layout>Boxes.xml</layout>
         <layout>Original.xml</layout>
         <layout>Grounded.xml</layout>
         <layout>Result.xml</layout>
