@@ -265,8 +265,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1466</x>
-                        <y>417</y>
+                        <x>1642</x>
+                        <y>-46</y>
                         <z>0</z>
                         <width>16</width>
                         <height>4</height>
@@ -277,7 +277,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="txtHp" uid="38">
+                <instance type="txtHpStats" uid="38">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>

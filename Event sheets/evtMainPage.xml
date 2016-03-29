@@ -7,7 +7,16 @@
             <conditions>
                 <condition id="0" name="On clicked" sid="1598888590116074" type="btnStart" />
             </conditions>
-            <actions />
+            <actions>
+                <action id="-9" name="Set value" sid="7777853678323269" type="System">
+                    <param id="0" name="Variable">Player1HP</param>
+                    <param id="1" name="Value">sbHitPoints.Value</param>
+                </action>
+                <action id="-9" name="Set value" sid="5178436354155037" type="System">
+                    <param id="0" name="Variable">Player2HP</param>
+                    <param id="1" name="Value">sbHitPoints.Value</param>
+                </action>
+            </actions>
             <sub-events>
                 <comment>Note: For this reason, the &quot;random&quot; map must be the last item of the combolist</comment>
                 <event-block sid="4992080854364607">
@@ -42,14 +51,6 @@
             <actions>
                 <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
                     <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma,period&quot;</param>
-                </action>
-                <action id="-9" name="Set value" sid="5742334594189115" type="System">
-                    <param id="0" name="Variable">Player1HP</param>
-                    <param id="1" name="Value">20</param>
-                </action>
-                <action id="-9" name="Set value" sid="917092073501475" type="System">
-                    <param id="0" name="Variable">Player2HP</param>
-                    <param id="1" name="Value">20</param>
                 </action>
             </actions>
         </event-block>
