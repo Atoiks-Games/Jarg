@@ -213,11 +213,14 @@
     <layout-folder>
         <layout>MainPage.xml</layout>
         <layout>Nothingness.xml</layout>
+        <layout>Complex.xml</layout>
+        <layout>Flash.xml</layout>
         <layout>Smile.xml</layout>
         <layout>Hang.xml</layout>
         <layout>Elevator.xml</layout>
         <layout>Arena.xml</layout>
         <layout>Original.xml</layout>
+        <layout>Duality.xml</layout>
         <layout>Result.xml</layout>
     </layout-folder>
     <event-folder>
