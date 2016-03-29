@@ -192,6 +192,27 @@
                     <param id="0" name="Scale">1 / 2.2</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="4773039078585079">
+                    <conditions>
+                        <condition id="-12" name="Repeat" sid="754319425403682" type="System">
+                            <param id="0" name="Count">SpawnCount - 1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="8309227032035187" type="Player1">
+                            <param id="0" name="Object">Player1</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="7091828269805942" type="Player2">
+                            <param id="0" name="Object">Player2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="9146700590301507">
             <conditions>
@@ -282,6 +303,12 @@
                 </action>
                 <action id="-2" name="Set Y" sid="5026608063511853" type="PlatformMov">
                     <param id="0" name="Y">PlatformMov.Y - 5</param>
+                </action>
+                <action behavior="Platform" id="5" name="Set gravity" sid="1986491138351873" type="Player1">
+                    <param id="0" name="Gravity">(PlayerScale^2) * 1500</param>
+                </action>
+                <action behavior="Platform" id="5" name="Set gravity" sid="7859790848334778" type="Player2">
+                    <param id="0" name="Gravity">(PlayerScale^2) * 1500</param>
                 </action>
             </actions>
             <sub-events>

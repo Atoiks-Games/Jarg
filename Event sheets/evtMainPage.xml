@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>evtMainPage</name>
     <events>
+        <variable constant="0" name="SpawnCount" sid="7364251000100274" static="0" type="number">1</variable>
+        <variable constant="0" name="PlayerScale" sid="779106105357782" static="0" type="number">1</variable>
         <event-block sid="3290520334224734">
             <conditions>
                 <condition id="0" name="On clicked" sid="1598888590116074" type="btnStart" />
@@ -16,19 +18,23 @@
                     <param id="0" name="Variable">Player2HP</param>
                     <param id="1" name="Value">sbHitPoints.Value</param>
                 </action>
+                <action id="-9" name="Set value" sid="3234224783309285" type="System">
+                    <param id="0" name="Variable">PlayerScale</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
             <sub-events>
                 <comment>Note: For this reason, the &quot;random&quot; map must be the last item of the combolist</comment>
                 <event-block sid="4992080854364607">
                     <conditions>
-                        <condition id="4" name="Compare selected item text" sid="2544802450691265" type="List">
+                        <condition id="4" name="Compare selected item text" sid="2544802450691265" type="lstMap">
                             <param id="0" name="Text to compare">&quot;random&quot;</param>
                             <param id="1" name="Case sensitivity">0</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="8136609307400038" type="System">
-                            <param id="0" name="Layout">List.ItemTextAt(random(List.ItemCount - 1))</param>
+                            <param id="0" name="Layout">lstMap.ItemTextAt(random(lstMap.ItemCount - 1))</param>
                         </action>
                     </actions>
                 </event-block>
@@ -38,7 +44,91 @@
                     </conditions>
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="9243663118882287" type="System">
-                            <param id="0" name="Layout">List.SelectedText</param>
+                            <param id="0" name="Layout">lstMap.SelectedText</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1150035375826817">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="8822202888829966" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;Single&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="7487543872624084" type="System">
+                            <param id="0" name="Variable">SpawnCount</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1716562904405421">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="1307875119870234" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;Double&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4844161741332924" type="System">
+                            <param id="0" name="Variable">SpawnCount</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5444250079525525">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="4907486584521622" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;Triple&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8741228028440758" type="System">
+                            <param id="0" name="Variable">SpawnCount</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2502104034392556">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="476529630016093" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;Quadruple&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="5197925262705193" type="System">
+                            <param id="0" name="Variable">SpawnCount</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7054028556737572">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="7044739415298224" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;x1.5&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4791624175621515" type="System">
+                            <param id="0" name="Variable">PlayerScale</param>
+                            <param id="1" name="Value">1.5</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9471099091827823">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="7762330398996775" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;x0.5&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4482110675158747" type="System">
+                            <param id="0" name="Variable">PlayerScale</param>
+                            <param id="1" name="Value">0.5</param>
                         </action>
                     </actions>
                 </event-block>

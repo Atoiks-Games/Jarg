@@ -181,7 +181,7 @@
         <object-type name="txtHpStats" sid="2406525726899345">
             <plugin id="Text" />
         </object-type>
-        <object-type name="List" sid="9989293564445931">
+        <object-type name="lstMap" sid="9989293564445931">
             <plugin id="List" />
         </object-type>
         <object-type name="txtMadeBy" sid="5569808211201994">
@@ -245,6 +245,12 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="txtConfPm" sid="381163272748241">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="lstPlayMode" sid="9033010292162032">
+            <plugin id="List" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -258,7 +264,6 @@
         <layout>Elevator.xml</layout>
         <layout>Arena.xml</layout>
         <layout>Original.xml</layout>
-        <layout>Duality.xml</layout>
         <layout>Result.xml</layout>
     </layout-folder>
     <event-folder>
