@@ -5,6 +5,7 @@
     <events>
         <variable constant="0" name="SpawnCount" sid="7364251000100274" static="0" type="number">1</variable>
         <variable constant="0" name="PlayerScale" sid="779106105357782" static="0" type="number">1</variable>
+        <variable comment="1 is true, 0 is false" constant="0" name="EnableDoubleJump" sid="2056372656125311" static="0" type="number">1</variable>
         <event-block sid="3290520334224734">
             <conditions>
                 <condition id="0" name="On clicked" sid="1598888590116074" type="btnStart" />
@@ -45,6 +46,28 @@
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="9243663118882287" type="System">
                             <param id="0" name="Layout">lstMap.SelectedText</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3714800612476941">
+                    <conditions>
+                        <condition id="1" name="Is checked" sid="9210829120762294" type="cbDbljmp" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="3422661889630974" type="System">
+                            <param id="0" name="Variable">EnableDoubleJump</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3755081554814013">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3504210415301766" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8182402213759369" type="System">
+                            <param id="0" name="Variable">EnableDoubleJump</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                 </event-block>

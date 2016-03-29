@@ -146,7 +146,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1026</x>
-                        <y>528</y>
+                        <y>451</y>
                         <z>0</z>
                         <width>199</width>
                         <height>22</height>
@@ -197,7 +197,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1025</x>
-                        <y>569</y>
+                        <y>492</y>
                         <z>0</z>
                         <width>200</width>
                         <height>25</height>
@@ -222,7 +222,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>971</x>
-                        <y>531</y>
+                        <y>454</y>
                         <z>0</z>
                         <width>73</width>
                         <height>33</height>
@@ -249,7 +249,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>971</x>
-                        <y>571</y>
+                        <y>494</y>
                         <z>0</z>
                         <width>73</width>
                         <height>33</height>
@@ -276,7 +276,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>971</x>
-                        <y>610</y>
+                        <y>533</y>
                         <z>0</z>
                         <width>73</width>
                         <height>33</height>
@@ -302,10 +302,34 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1026</x>
-                        <y>609</y>
+                        <y>532</y>
                         <z>0</z>
                         <width>199</width>
                         <height>22</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="cbDbljmp" uid="78">
+                    <properties>
+                        <type>Checkbox</type>
+                        <text>Double Jump?</text>
+                        <tooltip>If you want double jump in this game, check it</tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>Yes</checked>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1026</x>
+                        <y>567</y>
+                        <z>0</z>
+                        <width>199</width>
+                        <height>24</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

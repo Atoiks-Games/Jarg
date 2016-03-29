@@ -251,6 +251,9 @@
         <object-type name="lstPlayMode" sid="9033010292162032">
             <plugin id="List" />
         </object-type>
+        <object-type name="cbDbljmp" sid="4842848778190606">
+            <plugin id="Button" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
