@@ -133,7 +133,7 @@
                 </instance>
                 <instance type="lstMap" uid="1">
                     <properties>
-                        <items>Original; Nothingness; Smile; Hang; Arena; Elevator; Complex; Flash; Spin; Random</items>
+                        <items>Original; Nothingness; Smile; Hang; Arena; Elevator; Complex; Flash; Spin; Grounded; Random</items>
                         <tooltip>Choose the map here</tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
@@ -289,7 +289,7 @@
                 </instance>
                 <instance type="lstPlayMode" uid="121">
                     <properties>
-                        <items>Single; Double; Triple; Quadruple; x1.5; x0.5</items>
+                        <items>Single; Double; Triple; Quadruple; x1.5; x0.5; Space; Swapped</items>
                         <tooltip>Choose the map here</tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>

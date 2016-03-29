@@ -267,6 +267,7 @@
         <layout>Elevator.xml</layout>
         <layout>Arena.xml</layout>
         <layout>Original.xml</layout>
+        <layout>Grounded.xml</layout>
         <layout>Result.xml</layout>
     </layout-folder>
     <event-folder>

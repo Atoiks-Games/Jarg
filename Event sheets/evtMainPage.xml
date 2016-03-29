@@ -71,6 +71,34 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="2815925775278786">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="6098194291996948" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;Swapped&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="7185963063798848" type="System">
+                            <param id="0" name="Variable">PlayerScale</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1414170782306102">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="9440066117194871" type="lstPlayMode">
+                            <param id="0" name="Text to compare">&quot;Space&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="6497033520992649" type="System">
+                            <param id="0" name="Variable">PlayerScale</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="1150035375826817">
                     <conditions>
                         <condition id="4" name="Compare selected item text" sid="8822202888829966" type="lstPlayMode">
