@@ -193,6 +193,59 @@
                 <action id="0" name="Set text" sid="7534206419579342" type="controlHelp">
                     <param id="0" name="Text">&quot;Player 1: W,A,D and Z,X&quot; &amp; newline &amp; &quot;Player 2: O,K,semi and comma,period&quot;</param>
                 </action>
+                <action id="1" name="Set size" sid="1879442517927994" type="arrMusic">
+                    <param id="0" name="Width">12</param>
+                    <param id="1" name="Height">1</param>
+                    <param id="2" name="Depth">1</param>
+                </action>
+                <action id="2" name="Set at X" sid="5719506719800759" type="arrMusic">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;Baba Yaga&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="6997069395627589" type="arrMusic">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;Bit Quest&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3729315204392744" type="arrMusic">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;Blue Ska&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3277074573477476" type="arrMusic">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;Cyborg Ninja&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="7006303421843116" type="arrMusic">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;Fresh Air&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="6682959619305023" type="arrMusic">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Value">&quot;Hep Cats&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="874966340427268" type="arrMusic">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Value">&quot;Mighty Like Us&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="2936671363388076" type="arrMusic">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Value">&quot;Overworld&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="4800136885518639" type="arrMusic">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Value">&quot;Pyro Flow&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="237390404992666" type="arrMusic">
+                    <param id="0" name="X">9</param>
+                    <param id="1" name="Value">&quot;Spellbound&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="9327192371573206" type="arrMusic">
+                    <param id="0" name="X">10</param>
+                    <param id="1" name="Value">&quot;Suave Standpipe&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="2607786378957888" type="arrMusic">
+                    <param id="0" name="X">11</param>
+                    <param id="1" name="Value">&quot;Voice Over Under&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="1954926256685512">

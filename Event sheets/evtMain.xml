@@ -191,6 +191,13 @@
                 <action id="-20" name="Set layout scale" sid="6328015450825758" type="System">
                     <param id="0" name="Scale">1 / 2.2</param>
                 </action>
+                <action id="7" name="Play (by name)" sid="4462312977028833" type="soundBg">
+                    <param id="0" name="Folder">0</param>
+                    <param id="1" name="Audio file name">replace(arrMusic.At(random(0, arrMusic.Width)), &quot; &quot;, &quot;%20&quot;)</param>
+                    <param id="3" name="Loop">1</param>
+                    <param id="4" name="Volume">0</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="4773039078585079">

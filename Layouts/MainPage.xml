@@ -339,6 +339,14 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="arrMusic" uid="236">
+            <properties>
+                <width>2</width>
+                <height>0</height>
+                <depth>0</depth>
+            </properties>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>

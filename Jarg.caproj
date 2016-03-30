@@ -10,6 +10,8 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>22100</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="List" version="1">List</plugin>
@@ -254,6 +256,15 @@
         <object-type name="cbDbljmp" sid="4842848778190606">
             <plugin id="Button" />
         </object-type>
+        <object-type name="soundBg" sid="9315597087640212">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="txtSoundCred" sid="922275025979615">
+            <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="arrMusic" sid="6729806375654958">
+            <plugin id="Arr" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -286,8 +297,47 @@
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="109" />
+        <global-instance type="soundBg" uid="234">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="Baba Yaga.m4a" />
+        <file name="Baba Yaga.ogg" />
+        <file name="Bit Quest.m4a" />
+        <file name="Bit Quest.ogg" />
+        <file name="Blue Ska.m4a" />
+        <file name="Blue Ska.ogg" />
+        <file name="Cyborg Ninja.m4a" />
+        <file name="Cyborg Ninja.ogg" />
+        <file name="Fresh Air.m4a" />
+        <file name="Fresh Air.ogg" />
+        <file name="Hep Cats.m4a" />
+        <file name="Hep Cats.ogg" />
+        <file name="Mighty Like Us.m4a" />
+        <file name="Mighty Like Us.ogg" />
+        <file name="Overworld.m4a" />
+        <file name="Overworld.ogg" />
+        <file name="Pyro Flow.m4a" />
+        <file name="Pyro Flow.ogg" />
+        <file name="Spellbound.m4a" />
+        <file name="Spellbound.ogg" />
+        <file name="Suave Standpipe.m4a" />
+        <file name="Suave Standpipe.ogg" />
+        <file name="Voice Over Under.m4a" />
+        <file name="Voice Over Under.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
