@@ -133,7 +133,7 @@
                 </instance>
                 <instance type="lstMap" uid="1">
                     <properties>
-                        <items>Funnel; Nothingness; Spin; Grinder; Complex; Maze; Flash; Storm; Smile; Frown; Hang; Cave; Elevator; Crusher; Arena; Boxes; Original; Grounded;  Random</items>
+                        <items>Random; Funnel; Nothingness; Spin; Grinder; Complex; Maze; Flash; Storm; Smile; Frown; Hang; Cave; Elevator; Crusher; Arena; Boxes; Original; Grounded</items>
                         <tooltip>Choose the map here</tooltip>
                         <initial-visibility>Visible</initial-visibility>
                         <enabled>Yes</enabled>
